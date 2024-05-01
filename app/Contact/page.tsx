@@ -20,7 +20,7 @@ function ContactForm() {
     <div className="flex bg-HomeBG bg-cover bg-center h-[100vh]
      flex-col items-center gap-[4vh]  justify-center ">
         <p className='text-[3vh]
-       text-white font-bold'>Thanks For Your Massege</p>
+       text-white font-bold'>Thanks For Your Message</p>
         <Link href={'/'} className="w-[25vh] h-[6vh] 
         flex justify-center items-center rounded-2xl 
          font-body cursor-pointer bg-white text-[2vh]
@@ -43,7 +43,7 @@ function ContactForm() {
               id="email"
               type="email" 
               name="email"
-              className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-400"
+              className="w-full px-3 py-2 border rounded-md focus:outline-none bg-white text-black font-bold focus:border-blue-400"
             />
             <ValidationError 
               prefix="Email" 
@@ -57,7 +57,7 @@ function ContactForm() {
             <textarea
               id="message"
               name="message"
-              className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-400"
+              className="w-full px-3 py-2 border rounded-md focus:outline-none bg-white text-black font-bold focus:border-blue-400"
             />
             <ValidationError 
               prefix="Message" 
